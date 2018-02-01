@@ -1,0 +1,34 @@
+// white rectangles
+strokeWeight(7);
+ellipse(170, 170, 320, 320)
+
+// yellow
+fill(255, 225, 0);
+ellipse(170, 170, 120, 320)
+
+fill(255, 225, 0);
+ellipse(180, 170, 320, 40)
+
+// white
+fill('white');
+ellipse(170, 170, 200, 40)
+ellipse(110, 80, 60, 40)
+
+ellipse(170, 190, 40, 280)
+
+// red
+fill('red');
+ellipse(200, 140, 100, 100)
+
+// white
+fill('white');
+ellipse(170, 230, 40, 90)
+
+// blue
+fill(24, 109, 206);
+ellipse(210, 290, 100, 40)
+
+// black
+fill('black');
+ellipse(90, 220, 90, 70)
+ellipse(150, 312, 70, 17)
