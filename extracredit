@@ -31,6 +31,11 @@ fill('white');
 rect(random(width), random(height), random(width), random(height));
 rect(random(width), random(height), random(width), random(height));
 
+// black
+fill('black');
+rect(random(width), random(height), random(50,120), random(50,120));
+rect(random(width), random(height), random(70,100), random(70,100));
+
 // red
 fill('red');
 rect(random(width), random(height), random(50,100), random(50,100));
@@ -39,8 +44,3 @@ rect(random(width), random(height), random(50,100), random(50,100));
 fill(24, 109, 206);
 rect(random(width), random(height), random(50,100), random(50,100));
 rect(random(width), random(height), random(50,100), random(50,100));
-
-// black
-fill('black');
-rect(random(width), random(height), random(50,120), random(50,120));
-rect(random(width), random(height), random(70,100), random(70,100));
