@@ -1,27 +1,60 @@
-function draw() {
-  var A = line(random(0,340), random(0,340), random(width), random(height))
-  if (A == "(0,170), (0,170), (0,360), (0,360)") {
-    stroke('#fae');
-    line(random(0,170), random(0,170), random(width), random(height));
-  } 
-  if (A == "(170,340), (0,170), (0,360), (0,360)") {
-    stroke('red');
-    line(random(170,340), random(0,170), random(width), random(height));
-  } 
-  if (A == "(0,170), (170,340), (0,360), (0,360)") {
-    stroke(255, 204, 0);
-    line(random(0,170), random(170,340), random(width), random(height));
-  }
-  if (A == "(0,170), (170,340), (0,360), (0,360)") {
-    colorMode(HSB);
-    stroke(255, 204, 100);
-    line(random(0,170), random(170,340), random(width), random(height));
-  }
-}
+// function draw() {
+//   var A = line(random(0,340), random(0,340), random(width), random(height))
+//   if (A == "(0,170), (0,170), (0,360), (0,360)") {
+//     stroke('#fae');
+//     line(random(0,170), random(0,170), random(width), random(height));
+//   } 
+//   if (A == "(170,340), (0,170), (0,360), (0,360)") {
+//     stroke('red');
+//     line(random(170,340), random(0,170), random(width), random(height));
+//   } 
+//   if (A == "(0,170), (170,340), (0,360), (0,360)") {
+//     stroke(255, 204, 0);
+//     line(random(0,170), random(170,340), random(width), random(height));
+//   }
+//   if (A == "(0,170), (170,340), (0,360), (0,360)") {
+//     colorMode(HSB);
+//     stroke(255, 204, 100);
+//     line(random(0,170), random(170,340), random(width), random(height));
+//   }
+// }
 
+// var steps = 0;
+// while (steps < 10) {
+//   draw();
+//   steps = steps + 1;
+// }
+
+// Q1 pink
 var steps = 0;
 while (steps < 10) {
-  draw();
+  stroke('#fae');
+  line(random(0,170), random(0,170), random(width), random(height));
+  steps = steps + 1;
+}
+
+// Q2 red
+var steps = 0;
+while (steps < 10) {
+  stroke('red');
+  line(random(170,340), random(0,170), random(width), random(height));
+  steps = steps + 1;
+}
+
+// Q3 yellow
+var steps = 0;
+while (steps < 10) {
+  stroke(255, 204, 0);
+  line(random(0,170), random(170,340), random(width), random(height));
+  steps = steps + 1;
+}
+
+// Q4 blue
+var steps = 0;
+while (steps < 10) {
+  colorMode(HSB);
+  stroke(255, 204, 100);
+  line(random(170,340), random(170,340), random(width), random(height));
   steps = steps + 1;
 }
 
