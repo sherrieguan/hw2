@@ -1,0 +1,16 @@
+background(255);
+colorMode(HSB);
+noStroke();
+
+while(true) {
+  background(0, 0, 255, 0.1);
+  fill(random(180,270), 255, 255);
+  beginShape(TRIANGLES);
+vertex(random(width), random(height));
+vertex(random(width), random(height));
+vertex(random(width), random(height));
+vertex(random(width), random(height));
+vertex(random(width), random(height));
+vertex(random(width), random(height));
+endShape();
+}
